@@ -1,0 +1,4181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00310e7485fa3394962de1d20fbcaaeb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_00310e7485fa3394962de1d20fbcaaeb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_00310e7485fa3394962de1d20fbcaaeb = L.map(
+                "map_00310e7485fa3394962de1d20fbcaaeb",
+                {
+                    center: [32.779167, -96.808891],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cc844862b9ced259d6469bfe5212d27c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cc844862b9ced259d6469bfe5212d27c.addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var marker_b9b15014dd0a7e0bcec01afafdb4197b = L.marker(
+                [34.7932538, -86.569338],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_5d6c8ac25033bdc5446f7ba187fdca6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8e0a6f6c6391efec7acad414aab53ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d752eda7a9d1cfbfbe5744fc5a91897b = $(`<div id="html_d752eda7a9d1cfbfbe5744fc5a91897b" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/ZoH4Eis>https://offers.greatclips.com/ZoH4Eis</a></div>`)[0];
+                popup_f8e0a6f6c6391efec7acad414aab53ef.setContent(html_d752eda7a9d1cfbfbe5744fc5a91897b);
+            
+        
+
+        marker_b9b15014dd0a7e0bcec01afafdb4197b.bindPopup(popup_f8e0a6f6c6391efec7acad414aab53ef)
+        ;
+
+        
+    
+    
+            marker_b9b15014dd0a7e0bcec01afafdb4197b.bindTooltip(
+                `<div>
+                     Great Clips:$7.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9b15014dd0a7e0bcec01afafdb4197b.setIcon(icon_5d6c8ac25033bdc5446f7ba187fdca6d);
+            
+    
+            var marker_92ea403b347858eb73d472a87b1592db = L.marker(
+                [35.4704633, -86.793824],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_bdbab4e4a86b407b4dafdd0de2f2e4e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8daa750c8f6330ecd8bd61dfe0df7f0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40de4e32672176f3ab7a6b531ee58baa = $(`<div id="html_40de4e32672176f3ab7a6b531ee58baa" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/Sq6eQmL>https://offers.greatclips.com/Sq6eQmL</a></div>`)[0];
+                popup_8daa750c8f6330ecd8bd61dfe0df7f0b.setContent(html_40de4e32672176f3ab7a6b531ee58baa);
+            
+        
+
+        marker_92ea403b347858eb73d472a87b1592db.bindPopup(popup_8daa750c8f6330ecd8bd61dfe0df7f0b)
+        ;
+
+        
+    
+    
+            marker_92ea403b347858eb73d472a87b1592db.bindTooltip(
+                `<div>
+                     Great Clips:$7.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92ea403b347858eb73d472a87b1592db.setIcon(icon_bdbab4e4a86b407b4dafdd0de2f2e4e8);
+            
+    
+            var marker_6ff4507a6f1f2ac7ee296b2e6f9bfecd = L.marker(
+                [35.0235208, -106.7129138],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_28fa1905e802cf19a3f6d4e6afbc3bef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_07b79e9e6426f9c51a3f6eb658bf70b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eee4d37218627499e557a3f7a729d92a = $(`<div id="html_eee4d37218627499e557a3f7a729d92a" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/GePzfow>https://offers.greatclips.com/GePzfow</a></div>`)[0];
+                popup_07b79e9e6426f9c51a3f6eb658bf70b4.setContent(html_eee4d37218627499e557a3f7a729d92a);
+            
+        
+
+        marker_6ff4507a6f1f2ac7ee296b2e6f9bfecd.bindPopup(popup_07b79e9e6426f9c51a3f6eb658bf70b4)
+        ;
+
+        
+    
+    
+            marker_6ff4507a6f1f2ac7ee296b2e6f9bfecd.bindTooltip(
+                `<div>
+                     Great Clips:$7.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6ff4507a6f1f2ac7ee296b2e6f9bfecd.setIcon(icon_28fa1905e802cf19a3f6d4e6afbc3bef);
+            
+    
+            var marker_c35666b48a27f02d498022ce7afb2494 = L.marker(
+                [32.6832652, -114.648686],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_bc46560db6697ff528724831d500c40d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe2117e4b5fa7e4c26471e15eefabdf3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76604a2848eddb4f3e3cd15bd477fc59 = $(`<div id="html_76604a2848eddb4f3e3cd15bd477fc59" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/gnAmnhT>https://offers.greatclips.com/gnAmnhT</a></div>`)[0];
+                popup_fe2117e4b5fa7e4c26471e15eefabdf3.setContent(html_76604a2848eddb4f3e3cd15bd477fc59);
+            
+        
+
+        marker_c35666b48a27f02d498022ce7afb2494.bindPopup(popup_fe2117e4b5fa7e4c26471e15eefabdf3)
+        ;
+
+        
+    
+    
+            marker_c35666b48a27f02d498022ce7afb2494.bindTooltip(
+                `<div>
+                     Great Clips:$7.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c35666b48a27f02d498022ce7afb2494.setIcon(icon_bc46560db6697ff528724831d500c40d);
+            
+    
+            var marker_0a34fcfa04e1e776d6cdccf61df5ec71 = L.marker(
+                [33.3462107, -96.5812461],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_9548fa0a810e7bd202ff995ac6a813ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efe64243cbd3b9c4a5ea0f2fe23c48c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_615e7af5e1a6b2b986672c7909211786 = $(`<div id="html_615e7af5e1a6b2b986672c7909211786" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/4H3xPyD>https://offers.greatclips.com/4H3xPyD</a></div>`)[0];
+                popup_efe64243cbd3b9c4a5ea0f2fe23c48c0.setContent(html_615e7af5e1a6b2b986672c7909211786);
+            
+        
+
+        marker_0a34fcfa04e1e776d6cdccf61df5ec71.bindPopup(popup_efe64243cbd3b9c4a5ea0f2fe23c48c0)
+        ;
+
+        
+    
+    
+            marker_0a34fcfa04e1e776d6cdccf61df5ec71.bindTooltip(
+                `<div>
+                     Great Clips:$8.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0a34fcfa04e1e776d6cdccf61df5ec71.setIcon(icon_9548fa0a810e7bd202ff995ac6a813ed);
+            
+    
+            var marker_9052e53e8e9b0abfca9a6dcd19cb8d9e = L.marker(
+                [29.4612497, -98.7304226],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_5a56e47ea5191af443480f4f8075423a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0000d746085c3190976e1985abdd1ec4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e623504f8d17edc4369d7afcd55b149f = $(`<div id="html_e623504f8d17edc4369d7afcd55b149f" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/dOIeQdo>https://offers.greatclips.com/dOIeQdo</a></div>`)[0];
+                popup_0000d746085c3190976e1985abdd1ec4.setContent(html_e623504f8d17edc4369d7afcd55b149f);
+            
+        
+
+        marker_9052e53e8e9b0abfca9a6dcd19cb8d9e.bindPopup(popup_0000d746085c3190976e1985abdd1ec4)
+        ;
+
+        
+    
+    
+            marker_9052e53e8e9b0abfca9a6dcd19cb8d9e.bindTooltip(
+                `<div>
+                     Great Clips:$8.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9052e53e8e9b0abfca9a6dcd19cb8d9e.setIcon(icon_5a56e47ea5191af443480f4f8075423a);
+            
+    
+            var marker_8f8d2c914517d7d6de3e0fc1b1db2f51 = L.marker(
+                [41.2545626, -96.0247677],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_d740bb7ab9bfbc4f16b6a0c10afccb7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c4769d3c99dea1bb33658c4ecdd3d41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3694e71cc3d45fe62ebb66cabeaf0d48 = $(`<div id="html_3694e71cc3d45fe62ebb66cabeaf0d48" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/iam5yhj>https://offers.greatclips.com/iam5yhj</a></div>`)[0];
+                popup_4c4769d3c99dea1bb33658c4ecdd3d41.setContent(html_3694e71cc3d45fe62ebb66cabeaf0d48);
+            
+        
+
+        marker_8f8d2c914517d7d6de3e0fc1b1db2f51.bindPopup(popup_4c4769d3c99dea1bb33658c4ecdd3d41)
+        ;
+
+        
+    
+    
+            marker_8f8d2c914517d7d6de3e0fc1b1db2f51.bindTooltip(
+                `<div>
+                     Great Clips:$8.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8f8d2c914517d7d6de3e0fc1b1db2f51.setIcon(icon_d740bb7ab9bfbc4f16b6a0c10afccb7d);
+            
+    
+            var marker_b88ae27b8648fe664d2e50a2bbc59007 = L.marker(
+                [41.2056412, -96.19101719999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_23327d12006530a6e0d7835e35129d78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_504a3c3812f95db9cdcf605bfc5999e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a96ba15ff1322f189ee97ab1cff9259a = $(`<div id="html_a96ba15ff1322f189ee97ab1cff9259a" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/NdTbgJ5>https://offers.greatclips.com/NdTbgJ5</a></div>`)[0];
+                popup_504a3c3812f95db9cdcf605bfc5999e1.setContent(html_a96ba15ff1322f189ee97ab1cff9259a);
+            
+        
+
+        marker_b88ae27b8648fe664d2e50a2bbc59007.bindPopup(popup_504a3c3812f95db9cdcf605bfc5999e1)
+        ;
+
+        
+    
+    
+            marker_b88ae27b8648fe664d2e50a2bbc59007.bindTooltip(
+                `<div>
+                     Great Clips:$8.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b88ae27b8648fe664d2e50a2bbc59007.setIcon(icon_23327d12006530a6e0d7835e35129d78);
+            
+    
+            var marker_b5779f253b1aaa0e3fd5091233d13fb5 = L.marker(
+                [32.36031, -111.086994],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_aae5872a8f5d507f7bdf3a59474b8162 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66de3ee896187bd793869f4f5f5bc698 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6aa37f7c90182b94851956f8a7a646e0 = $(`<div id="html_6aa37f7c90182b94851956f8a7a646e0" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/cvWPfbY>https://offers.greatclips.com/cvWPfbY</a></div>`)[0];
+                popup_66de3ee896187bd793869f4f5f5bc698.setContent(html_6aa37f7c90182b94851956f8a7a646e0);
+            
+        
+
+        marker_b5779f253b1aaa0e3fd5091233d13fb5.bindPopup(popup_66de3ee896187bd793869f4f5f5bc698)
+        ;
+
+        
+    
+    
+            marker_b5779f253b1aaa0e3fd5091233d13fb5.bindTooltip(
+                `<div>
+                     Great Clips:$8.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b5779f253b1aaa0e3fd5091233d13fb5.setIcon(icon_aae5872a8f5d507f7bdf3a59474b8162);
+            
+    
+            var marker_1c4b8a2365e84e7d1a1a37029c17b228 = L.marker(
+                [32.36031, -111.086994],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_18db46fcd2519b2a84f6fe04c17cd0d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3da45f068655a0dd69de5b3612ff453 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28b6e52cf5fb8687664c290b5ab59c44 = $(`<div id="html_28b6e52cf5fb8687664c290b5ab59c44" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/u9XnjDZ>https://offers.greatclips.com/u9XnjDZ</a></div>`)[0];
+                popup_f3da45f068655a0dd69de5b3612ff453.setContent(html_28b6e52cf5fb8687664c290b5ab59c44);
+            
+        
+
+        marker_1c4b8a2365e84e7d1a1a37029c17b228.bindPopup(popup_f3da45f068655a0dd69de5b3612ff453)
+        ;
+
+        
+    
+    
+            marker_1c4b8a2365e84e7d1a1a37029c17b228.bindTooltip(
+                `<div>
+                     Great Clips:$8.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1c4b8a2365e84e7d1a1a37029c17b228.setIcon(icon_18db46fcd2519b2a84f6fe04c17cd0d6);
+            
+    
+            var marker_5bbe693ebbfb37128eb420f8863620ef = L.marker(
+                [29.7827293, -95.80601569999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_338c3351b04291240bdfcb5480d014d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ca41c3c5fe110ef2bdd1853afc3b38f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9daaed61ddd8fee5fdea2cee2e614d5 = $(`<div id="html_d9daaed61ddd8fee5fdea2cee2e614d5" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/EQgyI8U>https://offers.greatclips.com/EQgyI8U</a></div>`)[0];
+                popup_7ca41c3c5fe110ef2bdd1853afc3b38f.setContent(html_d9daaed61ddd8fee5fdea2cee2e614d5);
+            
+        
+
+        marker_5bbe693ebbfb37128eb420f8863620ef.bindPopup(popup_7ca41c3c5fe110ef2bdd1853afc3b38f)
+        ;
+
+        
+    
+    
+            marker_5bbe693ebbfb37128eb420f8863620ef.bindTooltip(
+                `<div>
+                     Great Clips:$8.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5bbe693ebbfb37128eb420f8863620ef.setIcon(icon_338c3351b04291240bdfcb5480d014d0);
+            
+    
+            var marker_36ce4edae21b817dac5a56982c44a90a = L.marker(
+                [39.4281537, -80.1863164],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_acbaa7aa97d1ad81e08ff5714e887c10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d10a8c12883a45a857add0e3530bd85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21506e27b96f0a322baa57dac7ba3f00 = $(`<div id="html_21506e27b96f0a322baa57dac7ba3f00" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/bDB82TI>https://offers.greatclips.com/bDB82TI</a></div>`)[0];
+                popup_5d10a8c12883a45a857add0e3530bd85.setContent(html_21506e27b96f0a322baa57dac7ba3f00);
+            
+        
+
+        marker_36ce4edae21b817dac5a56982c44a90a.bindPopup(popup_5d10a8c12883a45a857add0e3530bd85)
+        ;
+
+        
+    
+    
+            marker_36ce4edae21b817dac5a56982c44a90a.bindTooltip(
+                `<div>
+                     Great Clips:$8.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36ce4edae21b817dac5a56982c44a90a.setIcon(icon_acbaa7aa97d1ad81e08ff5714e887c10);
+            
+    
+            var marker_133a6b547f4c6fb9a3a8fc81e512afe8 = L.marker(
+                [42.6517794, -83.531807],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_c8295cc297247b35a6fab303c3140edb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dafb5095e9f907535699cd5a674fa62a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c7c258aeff8c211fa14bef00d72097f = $(`<div id="html_6c7c258aeff8c211fa14bef00d72097f" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/3zsNFV1>https://offers.greatclips.com/3zsNFV1</a></div>`)[0];
+                popup_dafb5095e9f907535699cd5a674fa62a.setContent(html_6c7c258aeff8c211fa14bef00d72097f);
+            
+        
+
+        marker_133a6b547f4c6fb9a3a8fc81e512afe8.bindPopup(popup_dafb5095e9f907535699cd5a674fa62a)
+        ;
+
+        
+    
+    
+            marker_133a6b547f4c6fb9a3a8fc81e512afe8.bindTooltip(
+                `<div>
+                     Great Clips:$8.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_133a6b547f4c6fb9a3a8fc81e512afe8.setIcon(icon_c8295cc297247b35a6fab303c3140edb);
+            
+    
+            var marker_27afc99b3e21085ab96c1c8112f92ff6 = L.marker(
+                [41.14974309999999, -96.211821],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_028dfd1032b7cd0f9dfc644c95ce554e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_888afea2d3313db86d55503956868c77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c443d1ef9d3fe0d1c0e1d2c60abed150 = $(`<div id="html_c443d1ef9d3fe0d1c0e1d2c60abed150" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/4jfze8U>https://offers.greatclips.com/4jfze8U</a></div>`)[0];
+                popup_888afea2d3313db86d55503956868c77.setContent(html_c443d1ef9d3fe0d1c0e1d2c60abed150);
+            
+        
+
+        marker_27afc99b3e21085ab96c1c8112f92ff6.bindPopup(popup_888afea2d3313db86d55503956868c77)
+        ;
+
+        
+    
+    
+            marker_27afc99b3e21085ab96c1c8112f92ff6.bindTooltip(
+                `<div>
+                     Great Clips:$5.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_27afc99b3e21085ab96c1c8112f92ff6.setIcon(icon_028dfd1032b7cd0f9dfc644c95ce554e);
+            
+    
+            var marker_8195119859fe3409fd410752c1872fbb = L.marker(
+                [41.289012, -96.0820273],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_2f0af00301017f563ca5c4f271ed4650 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5cee19140349322a3a57ff0414d5ad01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d43110c723d8ec81733114201f92aa61 = $(`<div id="html_d43110c723d8ec81733114201f92aa61" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/tBsxipG>https://offers.greatclips.com/tBsxipG</a></div>`)[0];
+                popup_5cee19140349322a3a57ff0414d5ad01.setContent(html_d43110c723d8ec81733114201f92aa61);
+            
+        
+
+        marker_8195119859fe3409fd410752c1872fbb.bindPopup(popup_5cee19140349322a3a57ff0414d5ad01)
+        ;
+
+        
+    
+    
+            marker_8195119859fe3409fd410752c1872fbb.bindTooltip(
+                `<div>
+                     Great Clips:$5.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8195119859fe3409fd410752c1872fbb.setIcon(icon_2f0af00301017f563ca5c4f271ed4650);
+            
+    
+            var marker_e3f050f2ef49663641e11e44b8a4792b = L.marker(
+                [28.5219353, -82.5703644],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_56735bf5ccbb8dd79ff7172c06be0452 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6ed694f7f7455853aed1172afb0267a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4b7a3edee0785c86dd077d39b7c2f60 = $(`<div id="html_f4b7a3edee0785c86dd077d39b7c2f60" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/PkoXpDR>https://offers.greatclips.com/PkoXpDR</a></div>`)[0];
+                popup_b6ed694f7f7455853aed1172afb0267a.setContent(html_f4b7a3edee0785c86dd077d39b7c2f60);
+            
+        
+
+        marker_e3f050f2ef49663641e11e44b8a4792b.bindPopup(popup_b6ed694f7f7455853aed1172afb0267a)
+        ;
+
+        
+    
+    
+            marker_e3f050f2ef49663641e11e44b8a4792b.bindTooltip(
+                `<div>
+                     Great Clips:$6.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e3f050f2ef49663641e11e44b8a4792b.setIcon(icon_56735bf5ccbb8dd79ff7172c06be0452);
+            
+    
+            var marker_830dadcb9fe1bb05bfc097e1af80d6f2 = L.marker(
+                [30.3368273, -95.4670254],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_431e873977e75f199a30955af2f253bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_478c3acfe40aa2413964efc83313be69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d7972ced60bcc2b866a18876ce5fd6b = $(`<div id="html_6d7972ced60bcc2b866a18876ce5fd6b" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/4HvxPH4>https://offers.greatclips.com/4HvxPH4</a></div>`)[0];
+                popup_478c3acfe40aa2413964efc83313be69.setContent(html_6d7972ced60bcc2b866a18876ce5fd6b);
+            
+        
+
+        marker_830dadcb9fe1bb05bfc097e1af80d6f2.bindPopup(popup_478c3acfe40aa2413964efc83313be69)
+        ;
+
+        
+    
+    
+            marker_830dadcb9fe1bb05bfc097e1af80d6f2.bindTooltip(
+                `<div>
+                     Great Clips:$6.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_830dadcb9fe1bb05bfc097e1af80d6f2.setIcon(icon_431e873977e75f199a30955af2f253bd);
+            
+    
+            var marker_63a62704f3e142982c34c265fe67eda1 = L.marker(
+                [41.5515395, -90.4850548],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_c50b51daa48f9e042c7c028b6eb8d074 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62e55a9fcb842bcffbf8488fc6a2ade0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ad46c91a80e825580ab9ace86873127 = $(`<div id="html_0ad46c91a80e825580ab9ace86873127" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/mVfud8t>https://offers.greatclips.com/mVfud8t</a></div>`)[0];
+                popup_62e55a9fcb842bcffbf8488fc6a2ade0.setContent(html_0ad46c91a80e825580ab9ace86873127);
+            
+        
+
+        marker_63a62704f3e142982c34c265fe67eda1.bindPopup(popup_62e55a9fcb842bcffbf8488fc6a2ade0)
+        ;
+
+        
+    
+    
+            marker_63a62704f3e142982c34c265fe67eda1.bindTooltip(
+                `<div>
+                     Great Clips:$6.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_63a62704f3e142982c34c265fe67eda1.setIcon(icon_c50b51daa48f9e042c7c028b6eb8d074);
+            
+    
+            var marker_b1a28c895040c19bde81d123b2637b89 = L.marker(
+                [40.1358988, -74.2221156],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_05df07a369db023e4b5bb2e46316ed00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d95761dd469ab75a14d0bfef915d9f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a621a2b7fea115a1bf60ea6c8de2ee8 = $(`<div id="html_7a621a2b7fea115a1bf60ea6c8de2ee8" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/EWC6tsG>https://offers.greatclips.com/EWC6tsG</a></div>`)[0];
+                popup_3d95761dd469ab75a14d0bfef915d9f9.setContent(html_7a621a2b7fea115a1bf60ea6c8de2ee8);
+            
+        
+
+        marker_b1a28c895040c19bde81d123b2637b89.bindPopup(popup_3d95761dd469ab75a14d0bfef915d9f9)
+        ;
+
+        
+    
+    
+            marker_b1a28c895040c19bde81d123b2637b89.bindTooltip(
+                `<div>
+                     Great Clips:$9.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b1a28c895040c19bde81d123b2637b89.setIcon(icon_05df07a369db023e4b5bb2e46316ed00);
+            
+    
+            var marker_17a6d457259f1df4f422d24ef4c5600a = L.marker(
+                [40.40507270000001, -74.6486501],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_0d371136ae71224e229185c4e2f19c65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ea068aa6cfe04e28f2bb4d4a553f127 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_752d830d896135bf7b633ca57d0512e0 = $(`<div id="html_752d830d896135bf7b633ca57d0512e0" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/BM2UDSv>https://offers.greatclips.com/BM2UDSv</a></div>`)[0];
+                popup_4ea068aa6cfe04e28f2bb4d4a553f127.setContent(html_752d830d896135bf7b633ca57d0512e0);
+            
+        
+
+        marker_17a6d457259f1df4f422d24ef4c5600a.bindPopup(popup_4ea068aa6cfe04e28f2bb4d4a553f127)
+        ;
+
+        
+    
+    
+            marker_17a6d457259f1df4f422d24ef4c5600a.bindTooltip(
+                `<div>
+                     Great Clips:$9.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_17a6d457259f1df4f422d24ef4c5600a.setIcon(icon_0d371136ae71224e229185c4e2f19c65);
+            
+    
+            var marker_7f590b9e2c03868ce6b2d7bf0304fc50 = L.marker(
+                [40.5511669, -74.42931349999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_d2d805691694a952c18623b64b7add91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c23614f17fa1e4a294285c1a397607e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c39a1d677d3a127a4ab7d0249637f61 = $(`<div id="html_9c39a1d677d3a127a4ab7d0249637f61" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/xHxyTko>https://offers.greatclips.com/xHxyTko</a></div>`)[0];
+                popup_c23614f17fa1e4a294285c1a397607e2.setContent(html_9c39a1d677d3a127a4ab7d0249637f61);
+            
+        
+
+        marker_7f590b9e2c03868ce6b2d7bf0304fc50.bindPopup(popup_c23614f17fa1e4a294285c1a397607e2)
+        ;
+
+        
+    
+    
+            marker_7f590b9e2c03868ce6b2d7bf0304fc50.bindTooltip(
+                `<div>
+                     Great Clips:$9.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7f590b9e2c03868ce6b2d7bf0304fc50.setIcon(icon_d2d805691694a952c18623b64b7add91);
+            
+    
+            var marker_ed951cf1b10c0cccf3a6f83ab4cede8f = L.marker(
+                [40.4414479, -74.50645949999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_e23c3511577ba834a415897ecec491d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2cc2fa3638709bfb884e4517504e8f20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f47a1144d8bada9735515c62410af5c = $(`<div id="html_4f47a1144d8bada9735515c62410af5c" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/KVBfbx9>https://offers.greatclips.com/KVBfbx9</a></div>`)[0];
+                popup_2cc2fa3638709bfb884e4517504e8f20.setContent(html_4f47a1144d8bada9735515c62410af5c);
+            
+        
+
+        marker_ed951cf1b10c0cccf3a6f83ab4cede8f.bindPopup(popup_2cc2fa3638709bfb884e4517504e8f20)
+        ;
+
+        
+    
+    
+            marker_ed951cf1b10c0cccf3a6f83ab4cede8f.bindTooltip(
+                `<div>
+                     Great Clips:$9.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed951cf1b10c0cccf3a6f83ab4cede8f.setIcon(icon_e23c3511577ba834a415897ecec491d9);
+            
+    
+            var marker_dd3ff81feda97ac21793da6a83dde7c4 = L.marker(
+                [39.4833392, -105.0754269],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_2ecc784054241e483443843b21bc8832 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_31f8e4dbd14f0927383bc5fdef215bc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a2340e14b471efc7afecaf754bd35b1 = $(`<div id="html_9a2340e14b471efc7afecaf754bd35b1" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/x8pkO7F>https://offers.greatclips.com/x8pkO7F</a></div>`)[0];
+                popup_31f8e4dbd14f0927383bc5fdef215bc2.setContent(html_9a2340e14b471efc7afecaf754bd35b1);
+            
+        
+
+        marker_dd3ff81feda97ac21793da6a83dde7c4.bindPopup(popup_31f8e4dbd14f0927383bc5fdef215bc2)
+        ;
+
+        
+    
+    
+            marker_dd3ff81feda97ac21793da6a83dde7c4.bindTooltip(
+                `<div>
+                     Great Clips:$9.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dd3ff81feda97ac21793da6a83dde7c4.setIcon(icon_2ecc784054241e483443843b21bc8832);
+            
+    
+            var marker_7261accd53724af1d047cc7768056c32 = L.marker(
+                [39.538808, -104.7711533],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_4c385e73318676358826a04263327342 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a74b24ff4b63bd3a08cba23c162e0115 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3616e82dfad670a07fa2bdf0114bd19a = $(`<div id="html_3616e82dfad670a07fa2bdf0114bd19a" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/o0hCu08>https://offers.greatclips.com/o0hCu08</a></div>`)[0];
+                popup_a74b24ff4b63bd3a08cba23c162e0115.setContent(html_3616e82dfad670a07fa2bdf0114bd19a);
+            
+        
+
+        marker_7261accd53724af1d047cc7768056c32.bindPopup(popup_a74b24ff4b63bd3a08cba23c162e0115)
+        ;
+
+        
+    
+    
+            marker_7261accd53724af1d047cc7768056c32.bindTooltip(
+                `<div>
+                     Great Clips:$9.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7261accd53724af1d047cc7768056c32.setIcon(icon_4c385e73318676358826a04263327342);
+            
+    
+            var marker_43917846b82947c0faaa2a121da698b9 = L.marker(
+                [32.8593171, -97.29152839999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_2c786fcad42bed18b273bc07a879f17f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_667a09dc86964827a300d3e930c08f0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_148ed209783c7dad8965fe3d9ac0dd60 = $(`<div id="html_148ed209783c7dad8965fe3d9ac0dd60" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/s4HG7qY>https://offers.greatclips.com/s4HG7qY</a></div>`)[0];
+                popup_667a09dc86964827a300d3e930c08f0b.setContent(html_148ed209783c7dad8965fe3d9ac0dd60);
+            
+        
+
+        marker_43917846b82947c0faaa2a121da698b9.bindPopup(popup_667a09dc86964827a300d3e930c08f0b)
+        ;
+
+        
+    
+    
+            marker_43917846b82947c0faaa2a121da698b9.bindTooltip(
+                `<div>
+                     Great Clips:$9.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_43917846b82947c0faaa2a121da698b9.setIcon(icon_2c786fcad42bed18b273bc07a879f17f);
+            
+    
+            var marker_47de376f657abca5867f1ca1fe6cce1e = L.marker(
+                [32.8743241, -97.2908696],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_945d49d713fd7a14534e8a29743d74e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fcbe3120eea53c5df3d19740db91f106 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_798a5ec7c502b28e6a917a6df5243f01 = $(`<div id="html_798a5ec7c502b28e6a917a6df5243f01" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/xyXuqqM>https://offers.greatclips.com/xyXuqqM</a></div>`)[0];
+                popup_fcbe3120eea53c5df3d19740db91f106.setContent(html_798a5ec7c502b28e6a917a6df5243f01);
+            
+        
+
+        marker_47de376f657abca5867f1ca1fe6cce1e.bindPopup(popup_fcbe3120eea53c5df3d19740db91f106)
+        ;
+
+        
+    
+    
+            marker_47de376f657abca5867f1ca1fe6cce1e.bindTooltip(
+                `<div>
+                     Great Clips:$9.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_47de376f657abca5867f1ca1fe6cce1e.setIcon(icon_945d49d713fd7a14534e8a29743d74e2);
+            
+    
+            var marker_f56e87ab9e96b5d82cd7a0e821186499 = L.marker(
+                [38.7475232, -112.0871976],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_80c9472610f772c8db24e37f8738be49 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dac419bd87e28d447a5b2ff9f20ba73f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8f05a9d5b1473907e2a3570b7576d44 = $(`<div id="html_b8f05a9d5b1473907e2a3570b7576d44" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/goQWbNT>https://offers.greatclips.com/goQWbNT</a></div>`)[0];
+                popup_dac419bd87e28d447a5b2ff9f20ba73f.setContent(html_b8f05a9d5b1473907e2a3570b7576d44);
+            
+        
+
+        marker_f56e87ab9e96b5d82cd7a0e821186499.bindPopup(popup_dac419bd87e28d447a5b2ff9f20ba73f)
+        ;
+
+        
+    
+    
+            marker_f56e87ab9e96b5d82cd7a0e821186499.bindTooltip(
+                `<div>
+                     Great Clips:$9.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f56e87ab9e96b5d82cd7a0e821186499.setIcon(icon_80c9472610f772c8db24e37f8738be49);
+            
+    
+            var marker_e20b84d85d765dd03873f1c15a25275a = L.marker(
+                [36.21854400000001, -115.9949983],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_83bd71a056a32fae102bd47fed076896 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eae49a3f00c8fb9f6e61ec38da50ecb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_511f3f01315c007cc1d1e1b15d812a64 = $(`<div id="html_511f3f01315c007cc1d1e1b15d812a64" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/0JfYYPO>https://offers.greatclips.com/0JfYYPO</a></div>`)[0];
+                popup_eae49a3f00c8fb9f6e61ec38da50ecb8.setContent(html_511f3f01315c007cc1d1e1b15d812a64);
+            
+        
+
+        marker_e20b84d85d765dd03873f1c15a25275a.bindPopup(popup_eae49a3f00c8fb9f6e61ec38da50ecb8)
+        ;
+
+        
+    
+    
+            marker_e20b84d85d765dd03873f1c15a25275a.bindTooltip(
+                `<div>
+                     Great Clips:$10.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e20b84d85d765dd03873f1c15a25275a.setIcon(icon_83bd71a056a32fae102bd47fed076896);
+            
+    
+            var marker_c878caa24417766c9ed97c48f5d16488 = L.marker(
+                [35.9420535, -115.1323489],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_0c28f0ac451c5c037bf5a43e6d961bf0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f64d500bbc945e1171029d62cb2db0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68e016328a6c774e212f39660a1b472b = $(`<div id="html_68e016328a6c774e212f39660a1b472b" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/s0eGjnr>https://offers.greatclips.com/s0eGjnr</a></div>`)[0];
+                popup_2f64d500bbc945e1171029d62cb2db0f.setContent(html_68e016328a6c774e212f39660a1b472b);
+            
+        
+
+        marker_c878caa24417766c9ed97c48f5d16488.bindPopup(popup_2f64d500bbc945e1171029d62cb2db0f)
+        ;
+
+        
+    
+    
+            marker_c878caa24417766c9ed97c48f5d16488.bindTooltip(
+                `<div>
+                     Great Clips:$10.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c878caa24417766c9ed97c48f5d16488.setIcon(icon_0c28f0ac451c5c037bf5a43e6d961bf0);
+            
+    
+            var marker_0a5476b061dd111cf0efe566aeb15a93 = L.marker(
+                [36.0516523, -114.9723776],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_75db22b23fd4df9acbf8fadaba9e666b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8df332dac904ab3470f9909632efe1e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f23dbccf1ae913f80d0b1c35f862efb = $(`<div id="html_5f23dbccf1ae913f80d0b1c35f862efb" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/MaDVomO>https://offers.greatclips.com/MaDVomO</a></div>`)[0];
+                popup_8df332dac904ab3470f9909632efe1e7.setContent(html_5f23dbccf1ae913f80d0b1c35f862efb);
+            
+        
+
+        marker_0a5476b061dd111cf0efe566aeb15a93.bindPopup(popup_8df332dac904ab3470f9909632efe1e7)
+        ;
+
+        
+    
+    
+            marker_0a5476b061dd111cf0efe566aeb15a93.bindTooltip(
+                `<div>
+                     Great Clips:$10.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0a5476b061dd111cf0efe566aeb15a93.setIcon(icon_75db22b23fd4df9acbf8fadaba9e666b);
+            
+    
+            var marker_ab0e2b51b8867da659a68faed934c104 = L.marker(
+                [36.08647759999999, -115.2978312],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_3ad870926d0c69f5a7d70f3c1d1d8a8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05d2ff2bee7c282db50f65029d37f6de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2c2acf4a6a6f2caa36adc51ae989deb = $(`<div id="html_e2c2acf4a6a6f2caa36adc51ae989deb" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/8mIg2sM>https://offers.greatclips.com/8mIg2sM</a></div>`)[0];
+                popup_05d2ff2bee7c282db50f65029d37f6de.setContent(html_e2c2acf4a6a6f2caa36adc51ae989deb);
+            
+        
+
+        marker_ab0e2b51b8867da659a68faed934c104.bindPopup(popup_05d2ff2bee7c282db50f65029d37f6de)
+        ;
+
+        
+    
+    
+            marker_ab0e2b51b8867da659a68faed934c104.bindTooltip(
+                `<div>
+                     Great Clips:$10.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ab0e2b51b8867da659a68faed934c104.setIcon(icon_3ad870926d0c69f5a7d70f3c1d1d8a8b);
+            
+    
+            var marker_7e67e49047776f21135134d2a936451b = L.marker(
+                [36.1225338, -115.2436114],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_7be451ea4646f8c6a046eb7603b0e702 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d53fb7cb1b2d4d97111edf05b3f6d4c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a088834f8adc7cc92e709cd484441e32 = $(`<div id="html_a088834f8adc7cc92e709cd484441e32" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/qooHPZ8>https://offers.greatclips.com/qooHPZ8</a></div>`)[0];
+                popup_d53fb7cb1b2d4d97111edf05b3f6d4c8.setContent(html_a088834f8adc7cc92e709cd484441e32);
+            
+        
+
+        marker_7e67e49047776f21135134d2a936451b.bindPopup(popup_d53fb7cb1b2d4d97111edf05b3f6d4c8)
+        ;
+
+        
+    
+    
+            marker_7e67e49047776f21135134d2a936451b.bindTooltip(
+                `<div>
+                     Great Clips:$10.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7e67e49047776f21135134d2a936451b.setIcon(icon_7be451ea4646f8c6a046eb7603b0e702);
+            
+    
+            var marker_4fc9ce6d1607d23bb296cb2a2697a3dd = L.marker(
+                [36.2157925, -115.243743],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_a96a4d5d149bfe67b24c967d3b9e8580 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e42aab38caf3d76e2b4067854928c78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be5ba40fa294502e2fbd9b29ee918e22 = $(`<div id="html_be5ba40fa294502e2fbd9b29ee918e22" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/WccjdCl>https://offers.greatclips.com/WccjdCl</a></div>`)[0];
+                popup_8e42aab38caf3d76e2b4067854928c78.setContent(html_be5ba40fa294502e2fbd9b29ee918e22);
+            
+        
+
+        marker_4fc9ce6d1607d23bb296cb2a2697a3dd.bindPopup(popup_8e42aab38caf3d76e2b4067854928c78)
+        ;
+
+        
+    
+    
+            marker_4fc9ce6d1607d23bb296cb2a2697a3dd.bindTooltip(
+                `<div>
+                     Great Clips:$10.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4fc9ce6d1607d23bb296cb2a2697a3dd.setIcon(icon_a96a4d5d149bfe67b24c967d3b9e8580);
+            
+    
+            var marker_cb2c40c11ba8c70ba36b714958431e7b = L.marker(
+                [36.0351997, -115.0464969],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_9c0c6c3f8f9df56f0dc17def6044a284 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_63ce1b3ff0854a9992da5639d08702b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0496f3b31013e46cc7b1f47b31148b5 = $(`<div id="html_c0496f3b31013e46cc7b1f47b31148b5" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/fmMQJMC>https://offers.greatclips.com/fmMQJMC</a></div>`)[0];
+                popup_63ce1b3ff0854a9992da5639d08702b1.setContent(html_c0496f3b31013e46cc7b1f47b31148b5);
+            
+        
+
+        marker_cb2c40c11ba8c70ba36b714958431e7b.bindPopup(popup_63ce1b3ff0854a9992da5639d08702b1)
+        ;
+
+        
+    
+    
+            marker_cb2c40c11ba8c70ba36b714958431e7b.bindTooltip(
+                `<div>
+                     Great Clips:$10.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb2c40c11ba8c70ba36b714958431e7b.setIcon(icon_9c0c6c3f8f9df56f0dc17def6044a284);
+            
+    
+            var marker_9c75b215ad4f05075fc0b2cad7ab69ef = L.marker(
+                [36.1618351, -115.245348],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_1dc9bf22bde6f097c5d935dcefc62269 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8153403da991ab0dceb93ee23ef4972 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b7918c9406d0aaec149aa3a3bcefaed = $(`<div id="html_3b7918c9406d0aaec149aa3a3bcefaed" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/DYRkZpO>https://offers.greatclips.com/DYRkZpO</a></div>`)[0];
+                popup_e8153403da991ab0dceb93ee23ef4972.setContent(html_3b7918c9406d0aaec149aa3a3bcefaed);
+            
+        
+
+        marker_9c75b215ad4f05075fc0b2cad7ab69ef.bindPopup(popup_e8153403da991ab0dceb93ee23ef4972)
+        ;
+
+        
+    
+    
+            marker_9c75b215ad4f05075fc0b2cad7ab69ef.bindTooltip(
+                `<div>
+                     Great Clips:$10.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9c75b215ad4f05075fc0b2cad7ab69ef.setIcon(icon_1dc9bf22bde6f097c5d935dcefc62269);
+            
+    
+            var marker_964853805e9f35c47275665e5cfa1f62 = L.marker(
+                [36.0542273, -115.2423924],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_94cacd80065d9c6433111b0d6582815a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51ceef0d034a23d663ad74c3ae6d526c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c5b60bb4f7d3bbc5526e69980454431 = $(`<div id="html_4c5b60bb4f7d3bbc5526e69980454431" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/19F3mW3>https://offers.greatclips.com/19F3mW3</a></div>`)[0];
+                popup_51ceef0d034a23d663ad74c3ae6d526c.setContent(html_4c5b60bb4f7d3bbc5526e69980454431);
+            
+        
+
+        marker_964853805e9f35c47275665e5cfa1f62.bindPopup(popup_51ceef0d034a23d663ad74c3ae6d526c)
+        ;
+
+        
+    
+    
+            marker_964853805e9f35c47275665e5cfa1f62.bindTooltip(
+                `<div>
+                     Great Clips:$10.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_964853805e9f35c47275665e5cfa1f62.setIcon(icon_94cacd80065d9c6433111b0d6582815a);
+            
+    
+            var marker_ceb3eee881de4b2b56537ab2f306e32f = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_1aa05a059eeddb16afed0b31da1ad420 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_63d4763a144554e9b0ad37fc25731fb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9fc0dbca04c9b188db0ce9b0af02fab = $(`<div id="html_d9fc0dbca04c9b188db0ce9b0af02fab" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/uAWgQA5>https://offers.greatclips.com/uAWgQA5</a></div>`)[0];
+                popup_63d4763a144554e9b0ad37fc25731fb9.setContent(html_d9fc0dbca04c9b188db0ce9b0af02fab);
+            
+        
+
+        marker_ceb3eee881de4b2b56537ab2f306e32f.bindPopup(popup_63d4763a144554e9b0ad37fc25731fb9)
+        ;
+
+        
+    
+    
+            marker_ceb3eee881de4b2b56537ab2f306e32f.bindTooltip(
+                `<div>
+                     Great Clips:$11.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ceb3eee881de4b2b56537ab2f306e32f.setIcon(icon_1aa05a059eeddb16afed0b31da1ad420);
+            
+    
+            var marker_630793621a9270500f5ded309a8bc151 = L.marker(
+                [41.5620902, -90.57151879999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_a47c52b9512c59741fdedd734abe6b33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0760808cb4b8c0a6d347e8b75d01a04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee803d6ddf81b82a20ce3c64b6bdc2a5 = $(`<div id="html_ee803d6ddf81b82a20ce3c64b6bdc2a5" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/5f9dK2E>https://offers.greatclips.com/5f9dK2E</a></div>`)[0];
+                popup_b0760808cb4b8c0a6d347e8b75d01a04.setContent(html_ee803d6ddf81b82a20ce3c64b6bdc2a5);
+            
+        
+
+        marker_630793621a9270500f5ded309a8bc151.bindPopup(popup_b0760808cb4b8c0a6d347e8b75d01a04)
+        ;
+
+        
+    
+    
+            marker_630793621a9270500f5ded309a8bc151.bindTooltip(
+                `<div>
+                     Great Clips:$11.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_630793621a9270500f5ded309a8bc151.setIcon(icon_a47c52b9512c59741fdedd734abe6b33);
+            
+    
+            var marker_5ad70733fa82b20a2de7d49f93319efb = L.marker(
+                [41.4708826, -90.5246193],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_0b395c1f5590748c6bcedd64ec143c76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c97c1247e830aa55fdbef04180a1b26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3074c53fe78b84a0cfac74332e57bd89 = $(`<div id="html_3074c53fe78b84a0cfac74332e57bd89" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/VM6yUW5>https://offers.greatclips.com/VM6yUW5</a></div>`)[0];
+                popup_3c97c1247e830aa55fdbef04180a1b26.setContent(html_3074c53fe78b84a0cfac74332e57bd89);
+            
+        
+
+        marker_5ad70733fa82b20a2de7d49f93319efb.bindPopup(popup_3c97c1247e830aa55fdbef04180a1b26)
+        ;
+
+        
+    
+    
+            marker_5ad70733fa82b20a2de7d49f93319efb.bindTooltip(
+                `<div>
+                     Great Clips:$11.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5ad70733fa82b20a2de7d49f93319efb.setIcon(icon_0b395c1f5590748c6bcedd64ec143c76);
+            
+    
+            var marker_37678d4d34a34af25a4418d16a38db48 = L.marker(
+                [41.5742756, -90.51569669999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_ccb4762c790ae26f40fc48686a6ebf77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9d602323d1dcd6ad7d8fd00930d86cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c6530f4a14bda05b32a032f218bf901 = $(`<div id="html_4c6530f4a14bda05b32a032f218bf901" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/dtYNoFe>https://offers.greatclips.com/dtYNoFe</a></div>`)[0];
+                popup_d9d602323d1dcd6ad7d8fd00930d86cc.setContent(html_4c6530f4a14bda05b32a032f218bf901);
+            
+        
+
+        marker_37678d4d34a34af25a4418d16a38db48.bindPopup(popup_d9d602323d1dcd6ad7d8fd00930d86cc)
+        ;
+
+        
+    
+    
+            marker_37678d4d34a34af25a4418d16a38db48.bindTooltip(
+                `<div>
+                     Great Clips:$11.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_37678d4d34a34af25a4418d16a38db48.setIcon(icon_ccb4762c790ae26f40fc48686a6ebf77);
+            
+    
+            var marker_1e1a15c158fae98cadb7c880dd33a26b = L.marker(
+                [41.5399061, -90.52196099999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_90c526f6711c9817f852a1c5378301aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aef0ca9540c365457d522f6e2c4a1dfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b95fd3811407ad66140e73e090924759 = $(`<div id="html_b95fd3811407ad66140e73e090924759" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/NiZBPez>https://offers.greatclips.com/NiZBPez</a></div>`)[0];
+                popup_aef0ca9540c365457d522f6e2c4a1dfa.setContent(html_b95fd3811407ad66140e73e090924759);
+            
+        
+
+        marker_1e1a15c158fae98cadb7c880dd33a26b.bindPopup(popup_aef0ca9540c365457d522f6e2c4a1dfa)
+        ;
+
+        
+    
+    
+            marker_1e1a15c158fae98cadb7c880dd33a26b.bindTooltip(
+                `<div>
+                     Great Clips:$11.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1e1a15c158fae98cadb7c880dd33a26b.setIcon(icon_90c526f6711c9817f852a1c5378301aa);
+            
+    
+            var marker_4fb2ee6c6b2365a8ed0d758d0a39a8dd = L.marker(
+                [41.59234319999999, -90.4641283],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_cd736f12225c6bf833103040a7bef311 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8977b2c023b3cac001667dd216970cc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1706b73bbae0d38b98e83a7913416844 = $(`<div id="html_1706b73bbae0d38b98e83a7913416844" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/AyIaHZJ>https://offers.greatclips.com/AyIaHZJ</a></div>`)[0];
+                popup_8977b2c023b3cac001667dd216970cc6.setContent(html_1706b73bbae0d38b98e83a7913416844);
+            
+        
+
+        marker_4fb2ee6c6b2365a8ed0d758d0a39a8dd.bindPopup(popup_8977b2c023b3cac001667dd216970cc6)
+        ;
+
+        
+    
+    
+            marker_4fb2ee6c6b2365a8ed0d758d0a39a8dd.bindTooltip(
+                `<div>
+                     Great Clips:$11.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4fb2ee6c6b2365a8ed0d758d0a39a8dd.setIcon(icon_cd736f12225c6bf833103040a7bef311);
+            
+    
+            var marker_38da5fce505ed18bd9acea5675c4a1d9 = L.marker(
+                [34.1876506, -97.14923739999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_8b266604610b0d89183e8f63c9c6a19b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13e371c9db1add3c463aa1a2861de187 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a78bc43b039648422e580296b3bfad8b = $(`<div id="html_a78bc43b039648422e580296b3bfad8b" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/nZdFQry>https://offers.greatclips.com/nZdFQry</a></div>`)[0];
+                popup_13e371c9db1add3c463aa1a2861de187.setContent(html_a78bc43b039648422e580296b3bfad8b);
+            
+        
+
+        marker_38da5fce505ed18bd9acea5675c4a1d9.bindPopup(popup_13e371c9db1add3c463aa1a2861de187)
+        ;
+
+        
+    
+    
+            marker_38da5fce505ed18bd9acea5675c4a1d9.bindTooltip(
+                `<div>
+                     Great Clips:$11.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_38da5fce505ed18bd9acea5675c4a1d9.setIcon(icon_8b266604610b0d89183e8f63c9c6a19b);
+            
+    
+            var marker_3cd1b9fd57f65f5d4c7914100cf21ea8 = L.marker(
+                [32.9251944, -96.8808326],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_fa550b3f1975489fa487aaa6f271cbbc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e401046752df57ffc512773144aee49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f63b650ddf523f3142b4c5cf896e4d6b = $(`<div id="html_f63b650ddf523f3142b4c5cf896e4d6b" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/aBnrlz0>https://offers.greatclips.com/aBnrlz0</a></div>`)[0];
+                popup_4e401046752df57ffc512773144aee49.setContent(html_f63b650ddf523f3142b4c5cf896e4d6b);
+            
+        
+
+        marker_3cd1b9fd57f65f5d4c7914100cf21ea8.bindPopup(popup_4e401046752df57ffc512773144aee49)
+        ;
+
+        
+    
+    
+            marker_3cd1b9fd57f65f5d4c7914100cf21ea8.bindTooltip(
+                `<div>
+                     Great Clips:$11.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3cd1b9fd57f65f5d4c7914100cf21ea8.setIcon(icon_fa550b3f1975489fa487aaa6f271cbbc);
+            
+    
+            var marker_74cf075ed6c863efe9a1b21af8b9a2cb = L.marker(
+                [32.7209214, -97.1507041],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_349d4a84caf0fdb1109e8afd1d676fcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b1316002f09ce37d9d28931e3083d2ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18291ea06812d5c99bbf08b9c6b9308c = $(`<div id="html_18291ea06812d5c99bbf08b9c6b9308c" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/0rcPqx3>https://offers.greatclips.com/0rcPqx3</a></div>`)[0];
+                popup_b1316002f09ce37d9d28931e3083d2ad.setContent(html_18291ea06812d5c99bbf08b9c6b9308c);
+            
+        
+
+        marker_74cf075ed6c863efe9a1b21af8b9a2cb.bindPopup(popup_b1316002f09ce37d9d28931e3083d2ad)
+        ;
+
+        
+    
+    
+            marker_74cf075ed6c863efe9a1b21af8b9a2cb.bindTooltip(
+                `<div>
+                     Great Clips:$11.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_74cf075ed6c863efe9a1b21af8b9a2cb.setIcon(icon_349d4a84caf0fdb1109e8afd1d676fcd);
+            
+    
+            var marker_baa0dc5d60c02f5d304d9a1c3a9fad83 = L.marker(
+                [42.0140209, -88.67880869999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_e144bcd265a13873edf2324109b6c0d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebe6f22cde971a24d367fb3ea886a327 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ed7a6214b6a421eabdf0f8c0eae4ee3 = $(`<div id="html_5ed7a6214b6a421eabdf0f8c0eae4ee3" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/pJu58hG>https://offers.greatclips.com/pJu58hG</a></div>`)[0];
+                popup_ebe6f22cde971a24d367fb3ea886a327.setContent(html_5ed7a6214b6a421eabdf0f8c0eae4ee3);
+            
+        
+
+        marker_baa0dc5d60c02f5d304d9a1c3a9fad83.bindPopup(popup_ebe6f22cde971a24d367fb3ea886a327)
+        ;
+
+        
+    
+    
+            marker_baa0dc5d60c02f5d304d9a1c3a9fad83.bindTooltip(
+                `<div>
+                     Great Clips:$12.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_baa0dc5d60c02f5d304d9a1c3a9fad83.setIcon(icon_e144bcd265a13873edf2324109b6c0d5);
+            
+    
+            var marker_830348cb92c8111ea044dfe34982545f = L.marker(
+                [37.1222451, -113.6259968],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_7a26899d0ecfb005e12793fa71afc0dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7908b04f5278fe925bda316a12e74a2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_112fde740bc0f77588962ac6cfddbc97 = $(`<div id="html_112fde740bc0f77588962ac6cfddbc97" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/a8hWApf>https://offers.greatclips.com/a8hWApf</a></div>`)[0];
+                popup_7908b04f5278fe925bda316a12e74a2d.setContent(html_112fde740bc0f77588962ac6cfddbc97);
+            
+        
+
+        marker_830348cb92c8111ea044dfe34982545f.bindPopup(popup_7908b04f5278fe925bda316a12e74a2d)
+        ;
+
+        
+    
+    
+            marker_830348cb92c8111ea044dfe34982545f.bindTooltip(
+                `<div>
+                     Great Clips:$12.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_830348cb92c8111ea044dfe34982545f.setIcon(icon_7a26899d0ecfb005e12793fa71afc0dd);
+            
+    
+            var marker_76b27825e53470842fc8f6fa2cf45de6 = L.marker(
+                [40.6230003, -111.8231785],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_d75e1e90a12f96cdc857c4c8b85b8b87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c18d0ecee45bbcb5e115c33ff7f017ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddabc001a4e8866532fa9f74276d55dc = $(`<div id="html_ddabc001a4e8866532fa9f74276d55dc" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/3AOH9l1>https://offers.greatclips.com/3AOH9l1</a></div>`)[0];
+                popup_c18d0ecee45bbcb5e115c33ff7f017ef.setContent(html_ddabc001a4e8866532fa9f74276d55dc);
+            
+        
+
+        marker_76b27825e53470842fc8f6fa2cf45de6.bindPopup(popup_c18d0ecee45bbcb5e115c33ff7f017ef)
+        ;
+
+        
+    
+    
+            marker_76b27825e53470842fc8f6fa2cf45de6.bindTooltip(
+                `<div>
+                     Great Clips:$12.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_76b27825e53470842fc8f6fa2cf45de6.setIcon(icon_d75e1e90a12f96cdc857c4c8b85b8b87);
+            
+    
+            var marker_f9e5ab926ae9d1b32d9b226fb31e69d6 = L.marker(
+                [37.5407246, -77.4360481],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_4f15a324a3365b1a9811f6feefe0bac9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f60bb0b6946b78ed4c57e1cf540be86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_081997aa3ba1113e5a1c1d89cd69d5dc = $(`<div id="html_081997aa3ba1113e5a1c1d89cd69d5dc" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/UH2xT5f>https://offers.greatclips.com/UH2xT5f</a></div>`)[0];
+                popup_4f60bb0b6946b78ed4c57e1cf540be86.setContent(html_081997aa3ba1113e5a1c1d89cd69d5dc);
+            
+        
+
+        marker_f9e5ab926ae9d1b32d9b226fb31e69d6.bindPopup(popup_4f60bb0b6946b78ed4c57e1cf540be86)
+        ;
+
+        
+    
+    
+            marker_f9e5ab926ae9d1b32d9b226fb31e69d6.bindTooltip(
+                `<div>
+                     Great Clips:$13.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f9e5ab926ae9d1b32d9b226fb31e69d6.setIcon(icon_4f15a324a3365b1a9811f6feefe0bac9);
+            
+    
+            var marker_b5a350b44ca5f3fac1d8dbc08b0fcc36 = L.marker(
+                [33.7822841, -118.0707253],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_feac1cce929a4fc848f823b11badc0da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4c145d582016ade50ad43dd605bbe58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65a0fbed988a75a84bd08b7fc1e2f9d1 = $(`<div id="html_65a0fbed988a75a84bd08b7fc1e2f9d1" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/xsgP6Jc>https://offers.greatclips.com/xsgP6Jc</a></div>`)[0];
+                popup_d4c145d582016ade50ad43dd605bbe58.setContent(html_65a0fbed988a75a84bd08b7fc1e2f9d1);
+            
+        
+
+        marker_b5a350b44ca5f3fac1d8dbc08b0fcc36.bindPopup(popup_d4c145d582016ade50ad43dd605bbe58)
+        ;
+
+        
+    
+    
+            marker_b5a350b44ca5f3fac1d8dbc08b0fcc36.bindTooltip(
+                `<div>
+                     Great Clips:$13.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b5a350b44ca5f3fac1d8dbc08b0fcc36.setIcon(icon_feac1cce929a4fc848f823b11badc0da);
+            
+    
+            var marker_f52edfacab556c74a509968c0485f002 = L.marker(
+                [33.8517108, -118.1449316],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_091ebeb913c1c08f4e294e171c941ffe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5f59be6b137591fb8d84be4ddfde3baf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_482341d882897f93b5601af5c0762679 = $(`<div id="html_482341d882897f93b5601af5c0762679" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/Ghc26Xh>https://offers.greatclips.com/Ghc26Xh</a></div>`)[0];
+                popup_5f59be6b137591fb8d84be4ddfde3baf.setContent(html_482341d882897f93b5601af5c0762679);
+            
+        
+
+        marker_f52edfacab556c74a509968c0485f002.bindPopup(popup_5f59be6b137591fb8d84be4ddfde3baf)
+        ;
+
+        
+    
+    
+            marker_f52edfacab556c74a509968c0485f002.bindTooltip(
+                `<div>
+                     Great Clips:$13.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f52edfacab556c74a509968c0485f002.setIcon(icon_091ebeb913c1c08f4e294e171c941ffe);
+            
+    
+            var marker_f1d44d61a3305e04d4ec9a1b71761ec4 = L.marker(
+                [39.51636999999999, -104.7670664],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_50de639240bbee50277c795548636401 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6fb2df20f5d94d06a2d8b46010c8fb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ae6660eaa38c7a5c678d40922a6a38a = $(`<div id="html_4ae6660eaa38c7a5c678d40922a6a38a" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/G3zM7Jy>https://offers.greatclips.com/G3zM7Jy</a></div>`)[0];
+                popup_d6fb2df20f5d94d06a2d8b46010c8fb3.setContent(html_4ae6660eaa38c7a5c678d40922a6a38a);
+            
+        
+
+        marker_f1d44d61a3305e04d4ec9a1b71761ec4.bindPopup(popup_d6fb2df20f5d94d06a2d8b46010c8fb3)
+        ;
+
+        
+    
+    
+            marker_f1d44d61a3305e04d4ec9a1b71761ec4.bindTooltip(
+                `<div>
+                     Great Clips:$13.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f1d44d61a3305e04d4ec9a1b71761ec4.setIcon(icon_50de639240bbee50277c795548636401);
+            
+    
+            var marker_206f123e159db4a45a7f2420ef99727c = L.marker(
+                [35.224344, -97.42322419999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_884010f4183f37dd6e17e184beb98b3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04f1d0084f2562c717e74def90abf5d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74b6307a18d67d9ec90f2b6c9123052d = $(`<div id="html_74b6307a18d67d9ec90f2b6c9123052d" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/l18EoJA>https://offers.greatclips.com/l18EoJA</a></div>`)[0];
+                popup_04f1d0084f2562c717e74def90abf5d4.setContent(html_74b6307a18d67d9ec90f2b6c9123052d);
+            
+        
+
+        marker_206f123e159db4a45a7f2420ef99727c.bindPopup(popup_04f1d0084f2562c717e74def90abf5d4)
+        ;
+
+        
+    
+    
+            marker_206f123e159db4a45a7f2420ef99727c.bindTooltip(
+                `<div>
+                     Great Clips:$13.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_206f123e159db4a45a7f2420ef99727c.setIcon(icon_884010f4183f37dd6e17e184beb98b3f);
+            
+    
+            var marker_f40b4ae344341243e954c5b36be08945 = L.marker(
+                [35.668648, -97.5150812],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_dd901f77bbb07c8a54b33fd780414275 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd6cce36757ea34575ae1de03ee4d374 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbcc9faa59e705efe3b37ed3d677767d = $(`<div id="html_fbcc9faa59e705efe3b37ed3d677767d" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/INvMIVf>https://offers.greatclips.com/INvMIVf</a></div>`)[0];
+                popup_fd6cce36757ea34575ae1de03ee4d374.setContent(html_fbcc9faa59e705efe3b37ed3d677767d);
+            
+        
+
+        marker_f40b4ae344341243e954c5b36be08945.bindPopup(popup_fd6cce36757ea34575ae1de03ee4d374)
+        ;
+
+        
+    
+    
+            marker_f40b4ae344341243e954c5b36be08945.bindTooltip(
+                `<div>
+                     Great Clips:$13.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f40b4ae344341243e954c5b36be08945.setIcon(icon_dd901f77bbb07c8a54b33fd780414275);
+            
+    
+            var marker_9a68ca6a336cc48d306d69df083f2013 = L.marker(
+                [35.3474608, -97.54667429999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_1aa473c74bbb49ed8a5d732925f99343 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d89bd3000028d418950a73d7f18cd882 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_173bf71e4a56506592f3eaba4893ea18 = $(`<div id="html_173bf71e4a56506592f3eaba4893ea18" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/4geGnJ0>https://offers.greatclips.com/4geGnJ0</a></div>`)[0];
+                popup_d89bd3000028d418950a73d7f18cd882.setContent(html_173bf71e4a56506592f3eaba4893ea18);
+            
+        
+
+        marker_9a68ca6a336cc48d306d69df083f2013.bindPopup(popup_d89bd3000028d418950a73d7f18cd882)
+        ;
+
+        
+    
+    
+            marker_9a68ca6a336cc48d306d69df083f2013.bindTooltip(
+                `<div>
+                     Great Clips:$13.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9a68ca6a336cc48d306d69df083f2013.setIcon(icon_1aa473c74bbb49ed8a5d732925f99343);
+            
+    
+            var marker_7f60963b4e8a4e24cb6a43311d42cbf9 = L.marker(
+                [35.449107, -97.4187187],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_d6437be3fb00542b627deeee2a878105 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42e1f264261af9100a978d41869ce6f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe88efe5be2c133ef4d56c995cdc64c7 = $(`<div id="html_fe88efe5be2c133ef4d56c995cdc64c7" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/dZnX5qS>https://offers.greatclips.com/dZnX5qS</a></div>`)[0];
+                popup_42e1f264261af9100a978d41869ce6f5.setContent(html_fe88efe5be2c133ef4d56c995cdc64c7);
+            
+        
+
+        marker_7f60963b4e8a4e24cb6a43311d42cbf9.bindPopup(popup_42e1f264261af9100a978d41869ce6f5)
+        ;
+
+        
+    
+    
+            marker_7f60963b4e8a4e24cb6a43311d42cbf9.bindTooltip(
+                `<div>
+                     Great Clips:$13.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7f60963b4e8a4e24cb6a43311d42cbf9.setIcon(icon_d6437be3fb00542b627deeee2a878105);
+            
+    
+            var marker_b43cf2f2eed93984c346658eec2b72b7 = L.marker(
+                [35.2383269, -97.48269359999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_4a552042631f4eb953eea0de72c3e2eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb30f0ec9646666dbe22e86d2b46548f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a269609b96aa4f17be65d6f3e5e1dac = $(`<div id="html_7a269609b96aa4f17be65d6f3e5e1dac" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/Q2SfNH7>https://offers.greatclips.com/Q2SfNH7</a></div>`)[0];
+                popup_fb30f0ec9646666dbe22e86d2b46548f.setContent(html_7a269609b96aa4f17be65d6f3e5e1dac);
+            
+        
+
+        marker_b43cf2f2eed93984c346658eec2b72b7.bindPopup(popup_fb30f0ec9646666dbe22e86d2b46548f)
+        ;
+
+        
+    
+    
+            marker_b43cf2f2eed93984c346658eec2b72b7.bindTooltip(
+                `<div>
+                     Great Clips:$13.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b43cf2f2eed93984c346658eec2b72b7.setIcon(icon_4a552042631f4eb953eea0de72c3e2eb);
+            
+    
+            var marker_952e3671b403a90cbf66ab3610e86ce4 = L.marker(
+                [29.5270854, -98.6033559],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_6e92ae4f33f57f79adb9be9f5e654042 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77c74e0e6481793ccf748dfc6e31dfb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a30c36901ce840cd4cab9c37faa0ccb5 = $(`<div id="html_a30c36901ce840cd4cab9c37faa0ccb5" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/yBzVyFG>https://offers.greatclips.com/yBzVyFG</a></div>`)[0];
+                popup_77c74e0e6481793ccf748dfc6e31dfb8.setContent(html_a30c36901ce840cd4cab9c37faa0ccb5);
+            
+        
+
+        marker_952e3671b403a90cbf66ab3610e86ce4.bindPopup(popup_77c74e0e6481793ccf748dfc6e31dfb8)
+        ;
+
+        
+    
+    
+            marker_952e3671b403a90cbf66ab3610e86ce4.bindTooltip(
+                `<div>
+                     Great Clips:$14.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_952e3671b403a90cbf66ab3610e86ce4.setIcon(icon_6e92ae4f33f57f79adb9be9f5e654042);
+            
+    
+            var marker_ef11bfce000273d5ebaf0ebebc2c1701 = L.marker(
+                [29.5578673, -98.6797158],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_717ebd605c3c2b610d6f19dd34852efa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a30093bd87c72e4611c14813eb94ed4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89be51c095db6929b122f0220ce48c2c = $(`<div id="html_89be51c095db6929b122f0220ce48c2c" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/IB19rEp>https://offers.greatclips.com/IB19rEp</a></div>`)[0];
+                popup_6a30093bd87c72e4611c14813eb94ed4.setContent(html_89be51c095db6929b122f0220ce48c2c);
+            
+        
+
+        marker_ef11bfce000273d5ebaf0ebebc2c1701.bindPopup(popup_6a30093bd87c72e4611c14813eb94ed4)
+        ;
+
+        
+    
+    
+            marker_ef11bfce000273d5ebaf0ebebc2c1701.bindTooltip(
+                `<div>
+                     Great Clips:$14.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ef11bfce000273d5ebaf0ebebc2c1701.setIcon(icon_717ebd605c3c2b610d6f19dd34852efa);
+            
+    
+            var marker_db0cb3746cf1f8e0b92b2a321ab2edf1 = L.marker(
+                [29.5541367, -98.6645302],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_42f96536b44e924b21fd510896520c27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_915bd9daefda8d301ffb04e55b3f1a70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b860571d9867fed45dfbdee9808f3575 = $(`<div id="html_b860571d9867fed45dfbdee9808f3575" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/BbkE8zD>https://offers.greatclips.com/BbkE8zD</a></div>`)[0];
+                popup_915bd9daefda8d301ffb04e55b3f1a70.setContent(html_b860571d9867fed45dfbdee9808f3575);
+            
+        
+
+        marker_db0cb3746cf1f8e0b92b2a321ab2edf1.bindPopup(popup_915bd9daefda8d301ffb04e55b3f1a70)
+        ;
+
+        
+    
+    
+            marker_db0cb3746cf1f8e0b92b2a321ab2edf1.bindTooltip(
+                `<div>
+                     Great Clips:$14.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_db0cb3746cf1f8e0b92b2a321ab2edf1.setIcon(icon_42f96536b44e924b21fd510896520c27);
+            
+    
+            var marker_66fa30beb0bf857c6fe87ec2b328f854 = L.marker(
+                [37.6568119, -121.8985715],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_68aeed92b1020cd49d2a5249ca9bc6c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c80259b6cb7876a8f6b309acb6c1d11e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb60ab4fa364db11f1340a8b95016228 = $(`<div id="html_cb60ab4fa364db11f1340a8b95016228" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/IOS6rlo>https://offers.greatclips.com/IOS6rlo</a></div>`)[0];
+                popup_c80259b6cb7876a8f6b309acb6c1d11e.setContent(html_cb60ab4fa364db11f1340a8b95016228);
+            
+        
+
+        marker_66fa30beb0bf857c6fe87ec2b328f854.bindPopup(popup_c80259b6cb7876a8f6b309acb6c1d11e)
+        ;
+
+        
+    
+    
+            marker_66fa30beb0bf857c6fe87ec2b328f854.bindTooltip(
+                `<div>
+                     Great Clips:$15.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_66fa30beb0bf857c6fe87ec2b328f854.setIcon(icon_68aeed92b1020cd49d2a5249ca9bc6c6);
+            
+    
+            var marker_606c71fae677a329576e5ced1fe45a58 = L.marker(
+                [37.9867459, -122.3114045],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_ddb8a2e8950db052c5754d1c9984530b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54a500e8b4c165cf077a9c1ded4accfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_624bd62dc13c72951d98474ff260c713 = $(`<div id="html_624bd62dc13c72951d98474ff260c713" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/C376RJc>https://offers.greatclips.com/C376RJc</a></div>`)[0];
+                popup_54a500e8b4c165cf077a9c1ded4accfd.setContent(html_624bd62dc13c72951d98474ff260c713);
+            
+        
+
+        marker_606c71fae677a329576e5ced1fe45a58.bindPopup(popup_54a500e8b4c165cf077a9c1ded4accfd)
+        ;
+
+        
+    
+    
+            marker_606c71fae677a329576e5ced1fe45a58.bindTooltip(
+                `<div>
+                     Great Clips:$15.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_606c71fae677a329576e5ced1fe45a58.setIcon(icon_ddb8a2e8950db052c5754d1c9984530b);
+            
+    
+            var marker_9f9ffd0961bcf0e140b4a60687909414 = L.marker(
+                [41.6135044, -83.69988169999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_a0b4f24099cfcff0f36e61f1cae6d36d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b771e4b46d459edf09955e88005c2f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0611b8856b4dafca0ccd794519391a9c = $(`<div id="html_0611b8856b4dafca0ccd794519391a9c" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/LF0dz8U>https://offers.greatclips.com/LF0dz8U</a></div>`)[0];
+                popup_4b771e4b46d459edf09955e88005c2f2.setContent(html_0611b8856b4dafca0ccd794519391a9c);
+            
+        
+
+        marker_9f9ffd0961bcf0e140b4a60687909414.bindPopup(popup_4b771e4b46d459edf09955e88005c2f2)
+        ;
+
+        
+    
+    
+            marker_9f9ffd0961bcf0e140b4a60687909414.bindTooltip(
+                `<div>
+                     Great Clips:$15.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9f9ffd0961bcf0e140b4a60687909414.setIcon(icon_a0b4f24099cfcff0f36e61f1cae6d36d);
+            
+    
+            var marker_37b6c428f8c61cd70b43e011cc26febd = L.marker(
+                [30.3227397, -81.40422389999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_8eacbd3a0a496437a7d0ecf9d6f03ff1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c13285e5bfb7eb6501c4f80a406c0fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_605d4dd47a1299e6158c8aca8a521fa3 = $(`<div id="html_605d4dd47a1299e6158c8aca8a521fa3" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/WcipZv9>https://offers.greatclips.com/WcipZv9</a></div>`)[0];
+                popup_1c13285e5bfb7eb6501c4f80a406c0fc.setContent(html_605d4dd47a1299e6158c8aca8a521fa3);
+            
+        
+
+        marker_37b6c428f8c61cd70b43e011cc26febd.bindPopup(popup_1c13285e5bfb7eb6501c4f80a406c0fc)
+        ;
+
+        
+    
+    
+            marker_37b6c428f8c61cd70b43e011cc26febd.bindTooltip(
+                `<div>
+                     Great Clips:$15.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_37b6c428f8c61cd70b43e011cc26febd.setIcon(icon_8eacbd3a0a496437a7d0ecf9d6f03ff1);
+            
+    
+            var marker_efe44a2ab480d3c62fb695a83d2acf16 = L.marker(
+                [30.1024453, -81.5184773],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_7efe284ff60371b99c7ddca2999c0c11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4653dcf5eacb08b2b719d9b5946be80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_961d8bf921a12458423aee87b563d072 = $(`<div id="html_961d8bf921a12458423aee87b563d072" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/ZDXg57c>https://offers.greatclips.com/ZDXg57c</a></div>`)[0];
+                popup_b4653dcf5eacb08b2b719d9b5946be80.setContent(html_961d8bf921a12458423aee87b563d072);
+            
+        
+
+        marker_efe44a2ab480d3c62fb695a83d2acf16.bindPopup(popup_b4653dcf5eacb08b2b719d9b5946be80)
+        ;
+
+        
+    
+    
+            marker_efe44a2ab480d3c62fb695a83d2acf16.bindTooltip(
+                `<div>
+                     Great Clips:$15.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_efe44a2ab480d3c62fb695a83d2acf16.setIcon(icon_7efe284ff60371b99c7ddca2999c0c11);
+            
+    
+            var marker_815e14f33aa9a739fd7e2ebefc6ee2a6 = L.marker(
+                [30.2197971, -81.5535948],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_3dab8a6e581c93419d853d04c1482aeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a95c376360d58679b589020ca7c2f9ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06459402677cdbbdcbc14ac05a4f0880 = $(`<div id="html_06459402677cdbbdcbc14ac05a4f0880" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/bEVPdir>https://offers.greatclips.com/bEVPdir</a></div>`)[0];
+                popup_a95c376360d58679b589020ca7c2f9ae.setContent(html_06459402677cdbbdcbc14ac05a4f0880);
+            
+        
+
+        marker_815e14f33aa9a739fd7e2ebefc6ee2a6.bindPopup(popup_a95c376360d58679b589020ca7c2f9ae)
+        ;
+
+        
+    
+    
+            marker_815e14f33aa9a739fd7e2ebefc6ee2a6.bindTooltip(
+                `<div>
+                     Great Clips:$15.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_815e14f33aa9a739fd7e2ebefc6ee2a6.setIcon(icon_3dab8a6e581c93419d853d04c1482aeb);
+            
+    
+            var marker_89d0ddc5ba86e49aec66095fa255f1e0 = L.marker(
+                [30.2874531, -81.3931963],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_eea9a5cd25a5f65ab861300517b61464 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b2210252c0b8049dcb8045f062b3779 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_807a0ad077f98da85a97626c1b7d6a74 = $(`<div id="html_807a0ad077f98da85a97626c1b7d6a74" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/iW6niZj>https://offers.greatclips.com/iW6niZj</a></div>`)[0];
+                popup_1b2210252c0b8049dcb8045f062b3779.setContent(html_807a0ad077f98da85a97626c1b7d6a74);
+            
+        
+
+        marker_89d0ddc5ba86e49aec66095fa255f1e0.bindPopup(popup_1b2210252c0b8049dcb8045f062b3779)
+        ;
+
+        
+    
+    
+            marker_89d0ddc5ba86e49aec66095fa255f1e0.bindTooltip(
+                `<div>
+                     Great Clips:$15.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_89d0ddc5ba86e49aec66095fa255f1e0.setIcon(icon_eea9a5cd25a5f65ab861300517b61464);
+            
+    
+            var marker_f829d85b35fb4a4d01c41d0463442e81 = L.marker(
+                [48.2892975, -122.6593538],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_41bca1468dfeb7beee77d39e383ba015 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_271ce152300ec79791e3c39bcb65bf72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fef44538d5283b2d6c3c0067a6ca8c0 = $(`<div id="html_0fef44538d5283b2d6c3c0067a6ca8c0" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/2YtWcwT>https://offers.greatclips.com/2YtWcwT</a></div>`)[0];
+                popup_271ce152300ec79791e3c39bcb65bf72.setContent(html_0fef44538d5283b2d6c3c0067a6ca8c0);
+            
+        
+
+        marker_f829d85b35fb4a4d01c41d0463442e81.bindPopup(popup_271ce152300ec79791e3c39bcb65bf72)
+        ;
+
+        
+    
+    
+            marker_f829d85b35fb4a4d01c41d0463442e81.bindTooltip(
+                `<div>
+                     Great Clips:$15.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f829d85b35fb4a4d01c41d0463442e81.setIcon(icon_41bca1468dfeb7beee77d39e383ba015);
+            
+    
+            var marker_4600bc7a6153728899d32437a0a62dc2 = L.marker(
+                [47.1424318, -119.277324],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_12589d19341b31075d422f2363cfa2b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02c9d43f8a46d32b794950515c6da6cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2da6681cd43a8e198fd97f5f11493a4 = $(`<div id="html_c2da6681cd43a8e198fd97f5f11493a4" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/u9yaAbC>https://offers.greatclips.com/u9yaAbC</a></div>`)[0];
+                popup_02c9d43f8a46d32b794950515c6da6cf.setContent(html_c2da6681cd43a8e198fd97f5f11493a4);
+            
+        
+
+        marker_4600bc7a6153728899d32437a0a62dc2.bindPopup(popup_02c9d43f8a46d32b794950515c6da6cf)
+        ;
+
+        
+    
+    
+            marker_4600bc7a6153728899d32437a0a62dc2.bindTooltip(
+                `<div>
+                     Great Clips:$15.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4600bc7a6153728899d32437a0a62dc2.setIcon(icon_12589d19341b31075d422f2363cfa2b7);
+            
+    
+            var marker_519451968280b88248230dc7b99dc6ca = L.marker(
+                [33.221396, -96.7944855],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_b55097e0d1e6f4e1502602cf6ae4cef7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9ba0d8e6e8a9c669b5e668955eccd5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1928623da10ebeba56017339eae7d3c4 = $(`<div id="html_1928623da10ebeba56017339eae7d3c4" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/GIsCal1>https://offers.greatclips.com/GIsCal1</a></div>`)[0];
+                popup_f9ba0d8e6e8a9c669b5e668955eccd5d.setContent(html_1928623da10ebeba56017339eae7d3c4);
+            
+        
+
+        marker_519451968280b88248230dc7b99dc6ca.bindPopup(popup_f9ba0d8e6e8a9c669b5e668955eccd5d)
+        ;
+
+        
+    
+    
+            marker_519451968280b88248230dc7b99dc6ca.bindTooltip(
+                `<div>
+                     Great Clips:$16.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_519451968280b88248230dc7b99dc6ca.setIcon(icon_b55097e0d1e6f4e1502602cf6ae4cef7);
+            
+    
+            var marker_19f8fe3dfdeecd777cd00f55a1f63a02 = L.marker(
+                [33.2144545, -96.73455109999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_bcf5d077d55eef9993e85d4baad95fc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_296461891096c3392d361ebef00204ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d06074562eca56f998fbfa07535b258 = $(`<div id="html_6d06074562eca56f998fbfa07535b258" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/7aE1AoR>https://offers.greatclips.com/7aE1AoR</a></div>`)[0];
+                popup_296461891096c3392d361ebef00204ed.setContent(html_6d06074562eca56f998fbfa07535b258);
+            
+        
+
+        marker_19f8fe3dfdeecd777cd00f55a1f63a02.bindPopup(popup_296461891096c3392d361ebef00204ed)
+        ;
+
+        
+    
+    
+            marker_19f8fe3dfdeecd777cd00f55a1f63a02.bindTooltip(
+                `<div>
+                     Great Clips:$16.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_19f8fe3dfdeecd777cd00f55a1f63a02.setIcon(icon_bcf5d077d55eef9993e85d4baad95fc9);
+            
+    
+            var marker_30eb71dad84ad7f82c9fb885abc249e6 = L.marker(
+                [33.2209453, -96.8796268],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_aceaba92ed13a7866d55b07063df1240 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce4c9ab88fee28aae67f3dcb09184937 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dac9b58f105949502c0fb29a2b58066 = $(`<div id="html_2dac9b58f105949502c0fb29a2b58066" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/2XKLMGW>https://offers.greatclips.com/2XKLMGW</a></div>`)[0];
+                popup_ce4c9ab88fee28aae67f3dcb09184937.setContent(html_2dac9b58f105949502c0fb29a2b58066);
+            
+        
+
+        marker_30eb71dad84ad7f82c9fb885abc249e6.bindPopup(popup_ce4c9ab88fee28aae67f3dcb09184937)
+        ;
+
+        
+    
+    
+            marker_30eb71dad84ad7f82c9fb885abc249e6.bindTooltip(
+                `<div>
+                     Great Clips:$16.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30eb71dad84ad7f82c9fb885abc249e6.setIcon(icon_aceaba92ed13a7866d55b07063df1240);
+            
+    
+            var marker_69d24b73b219d286753c237d764eba94 = L.marker(
+                [33.1022994, -96.6989108],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_cd0bd6826662426ff94eabad33d88564 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b12d970397ccdbdc81f41fb45efb18a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_beac90906f20ee556c87028f87ca5c84 = $(`<div id="html_beac90906f20ee556c87028f87ca5c84" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/lHXs8IE>https://offers.greatclips.com/lHXs8IE</a></div>`)[0];
+                popup_b12d970397ccdbdc81f41fb45efb18a2.setContent(html_beac90906f20ee556c87028f87ca5c84);
+            
+        
+
+        marker_69d24b73b219d286753c237d764eba94.bindPopup(popup_b12d970397ccdbdc81f41fb45efb18a2)
+        ;
+
+        
+    
+    
+            marker_69d24b73b219d286753c237d764eba94.bindTooltip(
+                `<div>
+                     Great Clips:$16.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_69d24b73b219d286753c237d764eba94.setIcon(icon_cd0bd6826662426ff94eabad33d88564);
+            
+    
+            var marker_957a37ba5607e13053728a58c9368108 = L.marker(
+                [33.1662815, -96.66343060000001],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_42add247f2f6ffe35c949683d5306d64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37bcbff22c3095019512fa4b68b7e436 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6148d08b9bdfd6a25cc179d45cfc55ff = $(`<div id="html_6148d08b9bdfd6a25cc179d45cfc55ff" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/WYRPH5Q>https://offers.greatclips.com/WYRPH5Q</a></div>`)[0];
+                popup_37bcbff22c3095019512fa4b68b7e436.setContent(html_6148d08b9bdfd6a25cc179d45cfc55ff);
+            
+        
+
+        marker_957a37ba5607e13053728a58c9368108.bindPopup(popup_37bcbff22c3095019512fa4b68b7e436)
+        ;
+
+        
+    
+    
+            marker_957a37ba5607e13053728a58c9368108.bindTooltip(
+                `<div>
+                     Great Clips:$16.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_957a37ba5607e13053728a58c9368108.setIcon(icon_42add247f2f6ffe35c949683d5306d64);
+            
+    
+            var marker_c90e006a1749188b6d4e71955bccb141 = L.marker(
+                [33.127581, -96.7312593],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_d0669e59158b9ee372ff86d543f33b62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_408df52df40503636dcd1255700e3526 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14408f7d2f9d369007801554aa4bae94 = $(`<div id="html_14408f7d2f9d369007801554aa4bae94" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/zQT8EDm>https://offers.greatclips.com/zQT8EDm</a></div>`)[0];
+                popup_408df52df40503636dcd1255700e3526.setContent(html_14408f7d2f9d369007801554aa4bae94);
+            
+        
+
+        marker_c90e006a1749188b6d4e71955bccb141.bindPopup(popup_408df52df40503636dcd1255700e3526)
+        ;
+
+        
+    
+    
+            marker_c90e006a1749188b6d4e71955bccb141.bindTooltip(
+                `<div>
+                     Great Clips:$16.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c90e006a1749188b6d4e71955bccb141.setIcon(icon_d0669e59158b9ee372ff86d543f33b62);
+            
+    
+            var marker_197546b08029f8499b454e33b39396ed = L.marker(
+                [33.1086231, -96.7697798],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_e207464d381027519aac16397b216f01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f57f6ec0784ddb8de76e079c8490e4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bfdf4304808f1f09ef4cac610d08715 = $(`<div id="html_9bfdf4304808f1f09ef4cac610d08715" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/8ybUVv2>https://offers.greatclips.com/8ybUVv2</a></div>`)[0];
+                popup_1f57f6ec0784ddb8de76e079c8490e4a.setContent(html_9bfdf4304808f1f09ef4cac610d08715);
+            
+        
+
+        marker_197546b08029f8499b454e33b39396ed.bindPopup(popup_1f57f6ec0784ddb8de76e079c8490e4a)
+        ;
+
+        
+    
+    
+            marker_197546b08029f8499b454e33b39396ed.bindTooltip(
+                `<div>
+                     Great Clips:$16.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_197546b08029f8499b454e33b39396ed.setIcon(icon_e207464d381027519aac16397b216f01);
+            
+    
+            var marker_ad700a9afba45738d556c75aeaddcd35 = L.marker(
+                [37.8843064, -122.1917658],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_b3cedfac2f71e06282f41db60294174e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ede75cbfd51c6925ea05ca22a302854 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79bdc463f6a465a07dc84ca5d95b3bf6 = $(`<div id="html_79bdc463f6a465a07dc84ca5d95b3bf6" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/UueE82Q>https://offers.greatclips.com/UueE82Q</a></div>`)[0];
+                popup_2ede75cbfd51c6925ea05ca22a302854.setContent(html_79bdc463f6a465a07dc84ca5d95b3bf6);
+            
+        
+
+        marker_ad700a9afba45738d556c75aeaddcd35.bindPopup(popup_2ede75cbfd51c6925ea05ca22a302854)
+        ;
+
+        
+    
+    
+            marker_ad700a9afba45738d556c75aeaddcd35.bindTooltip(
+                `<div>
+                     Great Clips:$17.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ad700a9afba45738d556c75aeaddcd35.setIcon(icon_b3cedfac2f71e06282f41db60294174e);
+            
+    
+            var marker_53729f66e032e647d3e0fd91ccb77af9 = L.marker(
+                [37.9181825, -122.0377445],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_a0a439f00e348ccf4398c688fc4146a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ddb9465dc6a5c97262f74ffbbd1ecfa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e6d145e7f5b9a1ace2913a5c8232199 = $(`<div id="html_9e6d145e7f5b9a1ace2913a5c8232199" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/VPvLhmk>https://offers.greatclips.com/VPvLhmk</a></div>`)[0];
+                popup_ddb9465dc6a5c97262f74ffbbd1ecfa1.setContent(html_9e6d145e7f5b9a1ace2913a5c8232199);
+            
+        
+
+        marker_53729f66e032e647d3e0fd91ccb77af9.bindPopup(popup_ddb9465dc6a5c97262f74ffbbd1ecfa1)
+        ;
+
+        
+    
+    
+            marker_53729f66e032e647d3e0fd91ccb77af9.bindTooltip(
+                `<div>
+                     Great Clips:$17.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_53729f66e032e647d3e0fd91ccb77af9.setIcon(icon_a0a439f00e348ccf4398c688fc4146a9);
+            
+    
+            var marker_7f275fbf777e18d9935d19fd697187ef = L.marker(
+                [37.9883537, -121.7844492],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_4fee409c022b37e100f0b5c1870dee71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bccdbeb85c36b44edd22cc379a1ec060 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02a6fcfe1ed1db5a22741a85350304fa = $(`<div id="html_02a6fcfe1ed1db5a22741a85350304fa" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/Zfzo6mv>https://offers.greatclips.com/Zfzo6mv</a></div>`)[0];
+                popup_bccdbeb85c36b44edd22cc379a1ec060.setContent(html_02a6fcfe1ed1db5a22741a85350304fa);
+            
+        
+
+        marker_7f275fbf777e18d9935d19fd697187ef.bindPopup(popup_bccdbeb85c36b44edd22cc379a1ec060)
+        ;
+
+        
+    
+    
+            marker_7f275fbf777e18d9935d19fd697187ef.bindTooltip(
+                `<div>
+                     Great Clips:$4.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7f275fbf777e18d9935d19fd697187ef.setIcon(icon_4fee409c022b37e100f0b5c1870dee71);
+            
+    
+            var marker_8defc159dcb854f7aaff851f748156b2 = L.marker(
+                [37.813956, -121.996529],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_e449f0b2ebca99770f9e9d8d5ef86774 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94bcbc781550c2413ba6868272e0b15b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a50adc4562ac0c400197397c0b4d97cb = $(`<div id="html_a50adc4562ac0c400197397c0b4d97cb" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/xPCf8VI>https://offers.greatclips.com/xPCf8VI</a></div>`)[0];
+                popup_94bcbc781550c2413ba6868272e0b15b.setContent(html_a50adc4562ac0c400197397c0b4d97cb);
+            
+        
+
+        marker_8defc159dcb854f7aaff851f748156b2.bindPopup(popup_94bcbc781550c2413ba6868272e0b15b)
+        ;
+
+        
+    
+    
+            marker_8defc159dcb854f7aaff851f748156b2.bindTooltip(
+                `<div>
+                     Great Clips:$4.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8defc159dcb854f7aaff851f748156b2.setIcon(icon_e449f0b2ebca99770f9e9d8d5ef86774);
+            
+    
+            var marker_1735c9233e2a1bd1003a2599a0d233f3 = L.marker(
+                [32.2210713, -81.1940317],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_221a939ea65e115c2d415182ca7585e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9d2c08cfa074587dec5c8cf3f53ab8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2304b00efc71edfe7404f5073fe137bd = $(`<div id="html_2304b00efc71edfe7404f5073fe137bd" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/n2BPigO>https://offers.greatclips.com/n2BPigO</a></div>`)[0];
+                popup_e9d2c08cfa074587dec5c8cf3f53ab8f.setContent(html_2304b00efc71edfe7404f5073fe137bd);
+            
+        
+
+        marker_1735c9233e2a1bd1003a2599a0d233f3.bindPopup(popup_e9d2c08cfa074587dec5c8cf3f53ab8f)
+        ;
+
+        
+    
+    
+            marker_1735c9233e2a1bd1003a2599a0d233f3.bindTooltip(
+                `<div>
+                     Great Clips:$18.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1735c9233e2a1bd1003a2599a0d233f3.setIcon(icon_221a939ea65e115c2d415182ca7585e6);
+            
+    
+            var marker_07cdf93ee03b51255d4e608dc24e27d6 = L.marker(
+                [30.4486826, -84.3072349],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_924eea95b0b06160b6d2821567809d24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b035dad8e2fd99fd7f106e3dfd82e632 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e39669ded0be76bb714b353263485b4 = $(`<div id="html_0e39669ded0be76bb714b353263485b4" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/SNOOGK1>https://offers.greatclips.com/SNOOGK1</a></div>`)[0];
+                popup_b035dad8e2fd99fd7f106e3dfd82e632.setContent(html_0e39669ded0be76bb714b353263485b4);
+            
+        
+
+        marker_07cdf93ee03b51255d4e608dc24e27d6.bindPopup(popup_b035dad8e2fd99fd7f106e3dfd82e632)
+        ;
+
+        
+    
+    
+            marker_07cdf93ee03b51255d4e608dc24e27d6.bindTooltip(
+                `<div>
+                     Great Clips:$18.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_07cdf93ee03b51255d4e608dc24e27d6.setIcon(icon_924eea95b0b06160b6d2821567809d24);
+            
+    
+            var marker_f4dca757393bdd30ed5e7730fa0dff17 = L.marker(
+                [34.0048159, -84.2946945],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_d45138383177e34e55077576685257bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e7cd8ebafdcc9fcba5367eb8fd2a0a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b73b5324bace793aed197753ba152375 = $(`<div id="html_b73b5324bace793aed197753ba152375" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/QHPQOEZ>https://offers.greatclips.com/QHPQOEZ</a></div>`)[0];
+                popup_7e7cd8ebafdcc9fcba5367eb8fd2a0a2.setContent(html_b73b5324bace793aed197753ba152375);
+            
+        
+
+        marker_f4dca757393bdd30ed5e7730fa0dff17.bindPopup(popup_7e7cd8ebafdcc9fcba5367eb8fd2a0a2)
+        ;
+
+        
+    
+    
+            marker_f4dca757393bdd30ed5e7730fa0dff17.bindTooltip(
+                `<div>
+                     Great Clips:$18.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f4dca757393bdd30ed5e7730fa0dff17.setIcon(icon_d45138383177e34e55077576685257bf);
+            
+    
+            var marker_41c38b5d4713c752e287ce854b4149eb = L.marker(
+                [38.2863461, -85.6291261],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_c665b92ef522b4cdb34688bba2b26657 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c49734cb127a7f7febffd857a12f7f90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b111fe6133d5fbb18ecd87cf7ac5e49 = $(`<div id="html_0b111fe6133d5fbb18ecd87cf7ac5e49" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/me1rW6u>https://offers.greatclips.com/me1rW6u</a></div>`)[0];
+                popup_c49734cb127a7f7febffd857a12f7f90.setContent(html_0b111fe6133d5fbb18ecd87cf7ac5e49);
+            
+        
+
+        marker_41c38b5d4713c752e287ce854b4149eb.bindPopup(popup_c49734cb127a7f7febffd857a12f7f90)
+        ;
+
+        
+    
+    
+            marker_41c38b5d4713c752e287ce854b4149eb.bindTooltip(
+                `<div>
+                     Great Clips:$18.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_41c38b5d4713c752e287ce854b4149eb.setIcon(icon_c665b92ef522b4cdb34688bba2b26657);
+            
+    
+            var marker_770a9a503e7d6dfb3d72d396968244d1 = L.marker(
+                [38.1376121, -85.67926279999999],
+                {
+}
+            ).addTo(map_00310e7485fa3394962de1d20fbcaaeb);
+        
+    
+            var icon_dd6a2a7694cc15975d6442e523e17355 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f46636738ed05ee7b9f249f62ee49c82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5d01e0614f349a23849d0aa98b12936 = $(`<div id="html_e5d01e0614f349a23849d0aa98b12936" style="width: 100.0%; height: 100.0%;"><a href=https://offers.greatclips.com/IB6uaM1>https://offers.greatclips.com/IB6uaM1</a></div>`)[0];
+                popup_f46636738ed05ee7b9f249f62ee49c82.setContent(html_e5d01e0614f349a23849d0aa98b12936);
+            
+        
+
+        marker_770a9a503e7d6dfb3d72d396968244d1.bindPopup(popup_f46636738ed05ee7b9f249f62ee49c82)
+        ;
+
+        
+    
+    
+            marker_770a9a503e7d6dfb3d72d396968244d1.bindTooltip(
+                `<div>
+                     Great Clips:$18.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_770a9a503e7d6dfb3d72d396968244d1.setIcon(icon_dd6a2a7694cc15975d6442e523e17355);
+            
+</script>
+</html>
