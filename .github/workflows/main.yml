@@ -27,3 +27,11 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: |
           python main.py
+          
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .   # or ./dist if you move files there
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
