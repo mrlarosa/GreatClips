@@ -1,7 +1,6 @@
 VERBOSE = False
 VISUAL = True
 
-import requests
 import re
 from bs4 import BeautifulSoup
 
