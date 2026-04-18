@@ -10,7 +10,7 @@ if VISUAL:
     import os
     import json
     CACHE_FILE = "geocode_cache.json"
-    API_KEY = "AIzaSyDJCW0w1rWCz9h-n5aIc_b4-bwxyyOYtGc"
+    API_KEY = os.environ.get("GOOGLE_API_KEY") # Hide Key
     colors = {
         "$4.99":  "darkgreen",   # best deal
         "$5.99":  "darkgreen",
