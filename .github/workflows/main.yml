@@ -5,8 +5,14 @@ on:
     - cron: '0 0 * * *'  # runs every day at 00:00 UTC
   workflow_dispatch:      # optional: lets you run it manually
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,11 +33,19 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: |
           python main.py
-          
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: .   # or ./dist if you move files there
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - uses: actions/deploy-pages@v4
